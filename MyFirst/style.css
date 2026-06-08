@@ -1,0 +1,30 @@
+body {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .tool-badge {
+      font-size: 0.85rem;
+      padding: 8px 16px;
+      border-radius: 20px;
+      margin: 4px;
+      display: inline-block;
+    }
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #212529;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #0d6efd;
+      text-align: right;
+    }
