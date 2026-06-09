@@ -1,0 +1,22 @@
+body {
+     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ main {
+    flex: 1;
+}
+.box-logo {
+    background-color: #fdf3e7;
+    min-height: 150px;
+}
+
+.box-green {
+    background-color: #eaf5ea;
+    min-height: 150px;
+}
+
+.box-blue {
+    background-color: #e8f4fb;
+    min-height: 150px;
+}
