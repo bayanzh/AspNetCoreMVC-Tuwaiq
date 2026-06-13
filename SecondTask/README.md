@@ -5,9 +5,10 @@
 
 ###  اليوم الثاني
 بناء صفحة باستخدام نظام Grid في Bootstrap
+![Second Task](./Assets/images/Task2.png)
 
-![Second Task](Assets/images/Task2.png)
-**المطلوب:**
+
+
 - استخدام نظام Grid (Rows & Columns) في Bootstrap
 - تنسيق العناصر بألوان وأطر مخصصة
 - ترتيب متناسق للنصوص والصور باستخدام Flexbox utilities
