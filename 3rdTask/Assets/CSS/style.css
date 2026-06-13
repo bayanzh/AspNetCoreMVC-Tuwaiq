@@ -31,6 +31,7 @@
     gap: 10px;
     margin-bottom: 32px;
 }
+
 .exercise-meta span {
 background: var(--card-bg);
 border: 1px solid var(--accent-light);
@@ -45,4 +46,15 @@ font-weight: 500;
     height: 1px;
     background: linear-gradient(to left, transparent, var(--accent-light), transparent);
     margin: 36px 0;
+}
+.table {
+    font-size: 0.95rem;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+.employees-table-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
 }
