@@ -1,0 +1,364 @@
+/* ===================== Google Font ===================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fc;
+    color: #1f2937;
+}
+
+/* ===================== Navbar ===================== */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: #5b5fef !important;
+}
+
+.nav-link {
+    color: #444 !important;
+    font-weight: 600;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #5b5fef !important;
+}
+
+/* ===================== Hero ===================== */
+.hero-box{
+    background: linear-gradient(135deg,#f7f7ff,#eef2ff);
+    border-radius: 30px;
+    padding: 60px;
+}
+
+.hero-badge{
+    background:#eef2ff;
+    color:#5b5fef;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+}
+
+.hero-title{
+    font-size:60px;
+    font-weight:800;
+    color:#222;
+}
+
+.hero-title span{
+    color:#5b5fef;
+}
+
+.hero-text{
+    color:#666;
+    line-height:2;
+    max-width:600px;
+}
+
+.hero-image{
+    max-width:450px;
+}
+
+.quick-card{
+    border-radius:20px;
+    transition:.3s;
+}
+
+.quick-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-card{
+    border-radius:20px;
+}
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-text {
+    background-color: #eef2ff;
+    color: #5b5fef;
+    padding: 8px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main-color {
+    color: #5b5fef;
+}
+
+.hero-image {
+    max-width: 450px;
+    width: 100%;
+    animation: float 4s ease-in-out infinite;
+}
+
+/* حركة بسيطة للصورة */
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* ===================== Buttons ===================== */
+
+.btn-primary {
+    background-color: #5b5fef !important;
+    border: none !important;
+    border-radius: 12px;
+    padding: 10px 25px;
+}
+
+.btn-primary:hover {
+    background-color: #474bd1 !important;
+}
+
+.btn-outline-primary {
+    border: 2px solid #5b5fef !important;
+    color: #5b5fef !important;
+    border-radius: 12px;
+    padding: 10px 25px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #5b5fef !important;
+    color: white !important;
+}
+
+/* ===================== Section Title ===================== */
+
+section h2 {
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+
+/* ===================== Project Cards ===================== */
+
+.project-card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+    background-color: #fff;
+}
+
+.project-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* ===================== Badges ===================== */
+
+.badge {
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.bg-purple {
+    background-color: #8b5cf6;
+}
+
+/* ===================== Table ===================== */
+
+.table {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+}
+
+/* ===================== About ===================== */
+
+#about img {
+    border: 6px solid white;
+}
+
+/* ===================== Contact ===================== */
+
+#contact .card {
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+#contact .card:hover {
+    transform: translateY(-6px);
+}
+
+#contact i {
+    color: #5b5fef;
+}
+
+/* ===================== Footer ===================== */
+
+footer {
+    background-color: #1f2937;
+}
+
+footer p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* ===================== Responsive ===================== */
+
+@media (max-width: 991px) {
+
+    .hero {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .hero-image {
+        max-width: 300px;
+        margin-top: 40px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+/* ===================== Projects ===================== */
+
+.project-card {
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    background-color: #fff;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,.12) !important;
+}
+
+.project-card img {
+    height: 145px;
+    object-fit: cover;
+    background: #f3f4f6;
+}
+
+.project-card .card-body {
+    padding: 15px;
+}
+
+.project-card h5 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 13px;
+    line-height: 1.7;
+    min-height: 55px;
+}
+
+/* Badges */
+
+.tech {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 11px;
+    margin: 2px;
+    font-weight: 600;
+}
+
+.html {
+    background: #fff1e7;
+    color: #ff7a00;
+}
+
+.css {
+    background: #eef2ff;
+    color: #4f46e5;
+}
+
+.bootstrap {
+    background: #f3e8ff;
+    color: #7c3aed;
+}
+
+.js {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+/* Buttons */
+
+.github-btn {
+    background: #162447;
+    color: white;
+    border-radius: 10px;
+}
+
+.github-btn:hover {
+    background: #1f4068;
+    color: white;
+}
+
+.btn-light {
+    border-radius: 10px;
+}
+
+/* Title */
+
+.all-projects {
+    color: #5b5fef;
+    font-size: 14px;
+}
+
+.all-projects:hover {
+    color: #3d42d6;
+}
