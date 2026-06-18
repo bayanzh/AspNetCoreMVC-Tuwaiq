@@ -1,0 +1,90 @@
+.bd-navbar {
+    background-color: #712cf9;
+}
+.bd-search {
+    position: relative;
+    width: 220px;
+}
+.bd-search .form-control {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 4.5rem;
+    font-size: 0.875rem;
+}
+.bd-search .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+.bd-search .form-control:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: none;
+    color: #fff;
+}
+.bd-search .search-icon {
+    position: absolute;
+    left: 0.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+    pointer-events: none;
+}
+.bd-search .kbd-shortcut {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.85);
+    pointer-events: none;
+}
+
+
+.bd-navbar .dropdown-toggle {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.85rem;
+    padding: 0.25rem 0.4rem;
+    cursor: pointer;
+}
+.bd-navbar .dropdown-toggle:hover {
+    color: #fff;
+}
+.bd-navbar .dropdown-toggle::after {
+    display: none;
+}
+.bd-navbar .small-caret {
+    font-size: 0.55rem;
+}
+.bd-navbar .dropdown-menu {
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    min-width: 160px;
+}
+.bd-navbar .dropdown-item {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.bd-navbar .dropdown-item.active {
+    background-color: #712cf9;
+}
+
+.theme-check {
+    margin-left: auto;
+    display: none;
+}
+[data-bs-theme="light"] .theme-item-light .theme-check,
+[data-bs-theme="dark"]  .theme-item-dark  .theme-check,
+[data-bs-theme="auto"]  .theme-item-auto  .theme-check {
+    display: inline;
+}

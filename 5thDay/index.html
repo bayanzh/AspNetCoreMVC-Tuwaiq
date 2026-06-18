@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <title>Header</title>
+</head>
+<body class="bg-light">
+    <header>
+        <nav class="navbar bd-navbar">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+
+               
+                <ul class="list-inline mb-0 d-flex align-items-center gap-3">
+                    <li class="list-inline-item">
+                        <span class="logo-box">
+                            <img src="Assets/images/bootstrap-642x512.png" alt="Logo" width="24" height="20">
+                        </span>
+                    </li>
+                    <li class="list-inline-item"><span class="text-white">Docs</span></li>
+                    <li class="list-inline-item"><span class="text-white">Examples</span></li>
+                    <li class="list-inline-item"><span class="text-white">Icons</span></li>
+                    <li class="list-inline-item"><span class="text-white">Blog</span></li>
+                </ul>
+
+                <div class="bd-search">
+                    <i class="bi bi-search search-icon"></i>
+                    <input class="form-control form-control-sm" type="search" placeholder="Search" aria-label="Search">
+                    <span class="kbd-shortcut">CTRL K</span>
+                </div>
+
+                
+                <ul class="list-inline mb-0 d-flex align-items-center gap-3">
+                    <li class="list-inline-item">
+                        <span class="text-white"><i class="bi bi-github"></i></span>
+                    </li>
+                    <li class="list-inline-item">
+                        <span class="text-white"><i class="bi bi-twitter"></i></span>
+                    </li>
+                    <li class="list-inline-item">
+                        <span class="text-white"><i class="bi bi-opencollective"></i></span>
+                    </li>
+
+                    <li class="list-inline-item border-start border-secondary ps-3">
+                       
+                        <div class="dropdown d-inline">
+                            <button class="dropdown-toggle text-white" data-bs-toggle="dropdown">
+                                v5.3 <i class="bi bi-caret-down-fill small-caret"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><h6 class="dropdown-header">v5 releases</h6></li>
+                                <li><a class="dropdown-item active" href="#">Latest (5.3.x)</a></li>
+                                <li><a class="dropdown-item" href="#">v5.2.3</a></li>
+                                <li><a class="dropdown-item" href="#">v5.1.3</a></li>
+                                <li><a class="dropdown-item" href="#">v5.0.2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Previous releases</h6></li>
+                                <li><a class="dropdown-item" href="#">v4.6.x</a></li>
+                                <li><a class="dropdown-item" href="#">v3.4.1</a></li>
+                                <li><a class="dropdown-item" href="#">v2.3.2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">All versions</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="list-inline-item border-start border-secondary ps-3">
+                      
+                        <div class="dropdown d-inline">
+                            <button class="dropdown-toggle text-white" data-bs-toggle="dropdown">
+                                <i class="bi bi-sun-fill" id="themeIcon"></i>
+                                <i class="bi bi-caret-down-fill small-caret"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <button class="dropdown-item theme-item-light" onclick="setTheme('light')">
+                                        <i class="bi bi-sun-fill"></i> Light
+                                        <i class="bi bi-check2 theme-check"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item theme-item-dark" onclick="setTheme('dark')">
+                                        <i class="bi bi-moon-stars-fill"></i> Dark
+                                        <i class="bi bi-check2 theme-check"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item theme-item-auto" onclick="setTheme('auto')">
+                                        <i class="bi bi-circle-half"></i> Auto
+                                        <i class="bi bi-check2 theme-check"></i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    
+</body>
+</html>
