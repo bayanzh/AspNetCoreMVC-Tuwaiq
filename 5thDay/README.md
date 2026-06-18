@@ -3,7 +3,7 @@
 
 ### اليوم الخامس
 
-![Fifth Task](Assets/images/Screenshot 2026-06-19 010425.png)
+![Fifth Task](Assets/images/Screenshot%202026-06-19%20010425.png)
 
 - بناء شريط تنقل (Navbar) م
 - إضافة قائمة منسدلة للثيم
