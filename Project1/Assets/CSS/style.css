@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ================= Navbar ================= */
+
+.navbar{
+    background: #fff;
+    padding: 15px 30px;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+}
+
+.nav-links a{
+    color: #111;
+    font-size: 18px;
+}
+
+.location{
+    font-size: 18px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #ddd;
+    padding-left: 25px;
+}
+
+.contact a{
+    font-weight: 600;
+}
+
+.language-btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 18px;
+
+    border: 1px solid #cfcfcf;
+    border-radius: 999px;
+}
+
+.menu-btn{
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #dc3545;
+    border-radius: 50%;
+
+    color: #dc3545;
+    font-size: 24px;
+}
+
+/* ================= Dropdown ================= */
+
+.custom-menu{
+    width: 280px;
+
+    padding: 0;
+    overflow: hidden;
+
+    border: none;
+    border-radius: 16px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .12);
+}
+
+.custom-menu .dropdown-item{
+    height: 56px;
+    padding: 0 18px;
+
+    border-bottom: 1px solid #ececec;
+}
+
+.custom-menu li:last-child .dropdown-item{
+    border-bottom: none;
+}
+
+.custom-menu .dropdown-item:hover{
+    background: #f7f7f7;
+}
+
+.custom-menu span{
+    flex: 1;
+    text-align: center;
+}
+
+.arrow{
+    color: #9ca3af;
+    font-size: 18px;
+}
+
+.icon{
+    color: #333;
+    font-size: 20px;
+}
+
+/* ================= Cards ================= */
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+/* ================= Footer ================= */
+
+footer i{
+    font-size: 1.2rem;
+}
