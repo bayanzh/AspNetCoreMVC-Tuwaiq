@@ -6,7 +6,7 @@
 ### Project1 
 
 تنفيذ واجهة موقع سيارات حديثة باستخدام Bootstrap 5 مع التركيز على تنظيم المحتوى .
-![Project Screenshot](Assets/Images/Project1.gpj)
+![Project Screenshot](./Assets/Images/Project1.gpj)
 
 ##المميزات
 
