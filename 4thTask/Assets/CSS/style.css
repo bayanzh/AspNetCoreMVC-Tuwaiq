@@ -1,3 +1,4 @@
+
 :root {
     --accent: #2A6F97;
     --accent-light: #A9D6E5;
@@ -5,7 +6,7 @@
 }
 
 .exercise-eyebrow {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.8rem;
     letter-spacing: 0.15em;
     color: var(--accent);
@@ -31,18 +32,43 @@
     gap: 10px;
     margin-bottom: 32px;
 }
+
 .exercise-meta span {
-background: var(--card-bg);
-border: 1px solid var(--accent-light);
-color: var(--accent);
-border-radius: 999px;
-padding: 6px 16px;
-font-size: 0.85rem;
-font-weight: 500;
+    background: var(--card-bg);
+    border: 1px solid var(--accent-light);
+    color: var(--accent);
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
 }
+
 .exercise-divider {
     border: none;
     height: 1px;
-    background: linear-gradient(to left, transparent, var(--accent-light), transparent);
+    background: linear-gradient(
+        to left,
+        transparent,
+        var(--accent-light),
+        transparent
+    );
     margin: 36px 0;
+}
+
+.hotel-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card .badge {
+    font-size: 14px;
+}
+
+.card .btn-primary {
+    font-weight: 500;
+}
+
+.card .text-success {
+    line-height: 1.8;
 }
