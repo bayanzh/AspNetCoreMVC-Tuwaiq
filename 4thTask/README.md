@@ -6,6 +6,7 @@
 تصميم بطاقات تعريفية بلغة HTML و Bootstrap
 
 ![Fourth Task](Assets/images/4thDay-Tasks.png)
+![Task8](Assets/images/Task8.png)
 
 - إعادة بناء بطاقة تعريف الكورس بطريقتين مختلفتين باستخدام مكوّن Card
 - استخدام نظام Grid (Rows & Columns) لتنظيم العناصر داخل البطاقات
