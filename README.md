@@ -12,6 +12,67 @@
 
 ![Task 11-12](Task11-12.png)
 
+# Task 13
+
+إنشاء Action باسم `ShowMessage` تقوم بإرجاع رسالة ترحيبية بسيطة.
+
+![Task 13](Images/Task13.png)
+
+---
+
+## Task 14
+
+إنشاء Action باسم `Square` تستقبل رقمًا وتعيد مربع العدد.
+
+![Task 14](Images/Task14.png)
+
+---
+
+## Task 15
+
+إنشاء Action باسم `Square` تستقبل رقمًا وتقوم بطباعة مربع العدد داخل Terminal باستخدام Console.
+
+
+![Task 15](Images/Task15.png)
+
+---
+
+## Task 16
+
+إنشاء Action باسم `Add` تستقبل عددين وتعيد ناتج جمعهما.
+
+
+![Task 16](Images/Task16.png)
+
+---
+
+## Task 17
+
+إنشاء Controller باسم `TuwaiqController` والتعامل مع Routing وتمرير البيانات عبر URL.
+
+
+![Task 17](Images/Task17.png)
+
+---
+
+## Task 18
+
+التعامل مع Arrays والتحقق عن البيانات المرسلة عبر URL.
+
+
+![Task 18](Images/Task18.png)
+
+---
+
+## Task 19
+
+التعامل مع Lists واستخدام الدوال الجاهزة للبحث والتحقق من البيانات.
+
+
+![Task 19](Images/Task19.png)
+
+
+
 ## 🛠️ الأدوات المستخدمة
 
 - Visual Studio Code
