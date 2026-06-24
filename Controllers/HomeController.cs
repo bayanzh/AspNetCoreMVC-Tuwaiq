@@ -10,7 +10,27 @@ public class HomeController : Controller
     {
         return View();
     }
+    
+    public string ShowMessage()
+    {
+        return "Welcome to Tuwaiq";
+    }
 
+    public int Square(int num)
+    {
+        return num * num;
+    }
+
+    public void Square1 (int num)
+    {
+        int result = num *num;
+        Console.WriteLine($"[Console Output] The square of {num} is:{result}");
+    }
+
+    public int Add(int num1 , int num2)
+    {
+        return num1+num2;
+    }
     public IActionResult Privacy()
     {
         return View();

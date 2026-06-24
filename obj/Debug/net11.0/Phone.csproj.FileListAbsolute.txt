@@ -96,3 +96,4 @@ C:\Phone\obj\Debug\net11.0\refint\Phone.dll
 C:\Phone\obj\Debug\net11.0\Phone.pdb
 C:\Phone\obj\Debug\net11.0\Phone.genruntimeconfig.cache
 C:\Phone\obj\Debug\net11.0\ref\Phone.dll
+C:\Phone\obj\Debug\net11.0\Phone.sourcelink.json
