@@ -7,8 +7,6 @@
 
 - تثبيت .NET SDK
 - إنشاء مشروع ASP.NET Core MVC
-- تشغيل المشروع باستخدام CLI
-- فتح المشروع باستخدام Visual Studio Code
 - التعرف على بنية مشروع MVC
 
 
