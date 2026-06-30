@@ -71,6 +71,31 @@
 
 ![Task 19](Images/Task19.png)
 
+## Task 20
+
+التعامل مع مجموعات البيانات (Dictionaries) والبحث الديناميكي باستخدام ASP.NET Core MVC
+
+![Task 20](Images/Task20.png)
+
+## Task 21
+
+ إنشاء وتوجيه الصفحات في بيئة ASP.NET Core MVC
+ 
+ ![Task 21-1](Images/Task21-1.png)
+ ![Task 21-2](Images/Task21-2.png).
+
+## Task 22
+
+ 
+ ![Task 22](Images/Task22-1.png)
+
+
+
+## Task 23
+
+ ![Task 23](Images/Task23-1.png)
+ ![Task 23](Images/Task23-2.png).
+
 
 
 ## 🛠️ الأدوات المستخدمة
