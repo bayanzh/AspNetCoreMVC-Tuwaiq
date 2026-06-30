@@ -75,7 +75,7 @@
 
 التعامل مع مجموعات البيانات (Dictionaries) والبحث الديناميكي باستخدام ASP.NET Core MVC
 
-![Task 20](Images/Task20.png)
+![Task 20](Images/Task20-1.png)
 
 ## Task 21
 
