@@ -81,7 +81,6 @@
 
  إنشاء وتوجيه الصفحات في بيئة ASP.NET Core MVC
  
- ![Task 21-1](Images/Task21-1.png)
  ![Task 21-2](Images/Task21-2.png).
 
 ## Task 22
